@@ -160,7 +160,7 @@ def main():
     tts = AzureTTS(speech_key, service_region)
     
     # テキストを音声に変換
-    text = "こんにちは。Azure Text-to-Speechのテストです。スクリプトは正常に実行され、音声合成が成功しました。ALSAのエラーはWSL環境でのオーディオ設定の問題ですが、音声ファイルの保存は正常に動作しています。output.wavファイルが生成されました。"
+    text = "こんにちは。Azure Text-to-Speechのテストです。"
 
     tts.text_to_speech(text)
     
